@@ -1,0 +1,52 @@
+.icon {
+  font-size: 2rem;
+  font-weight: 300;
+  position: absolute;
+  color: #fff;
+  z-index: 10;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  animation: beat 2s infinite alternate;
+  transform-origin: center;
+}
+
+.icon1 {
+  top: 30%;
+  left: 30%;
+}
+
+.icon2 {
+  top: 5%;
+  left: 65%;
+}
+
+.icon3 {
+  top: 50%;
+  left: 50%;
+}
+
+.hotspotImage {
+  height: 1000px;
+  width: 100vw;
+  background-image: url('/hero-image.jpeg');
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.hotspotSection {
+  position: relative;
+}
+/* Heart beat animation */
+
+@keyframes beat {
+  0% {
+    opacity: 0.1;
+    border: none;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}

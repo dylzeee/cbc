@@ -1,0 +1,131 @@
+.about {
+  background-color: #f7f7f7;
+  padding: 15rem 0;
+}
+
+.headingSecondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #8AFF42, #046402);
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.headingSecondary:hover {
+  transform: translateY(-1rem);
+  text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.1)
+}
+
+.aboutCols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 756px) {
+  .aboutCols {
+    text-align: center;
+    flex-direction: column-reverse;
+    margin-top: 20rem;
+  }
+  .about {
+    padding: 2rem;
+  }
+}
+
+@media (max-width:756px) {
+  .about {
+    padding-top: 5rem;
+  }
+}
+
+.aboutCols div {
+  padding: 5rem 10rem;
+  flex: 1;
+}
+
+@media(min-width:756px) {
+  .aboutCols div {
+    padding: 10rem;
+    flex: 1;
+  }
+}
+
+@media(min-width:1650px) {
+  .aboutCols div {
+    padding: 10rem 15rem;
+    flex: 1;
+  }
+}
+
+.imageWrapper:hover .image:not(:hover) {
+  transform: scale(.93);
+}
+
+.image {
+  width: 50%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  transition: all .2s;
+  outline-offset: 2rem;
+}
+
+.image.image1:hover {
+  outline: 1rem solid #046402;
+  transform: scale(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.image.image2:hover {
+  outline: 1rem solid #046402;
+  transform: scale(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.image.image3:hover {
+  outline: 1rem solid #046402;
+  transform: scale(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.imageWrapper {
+  position: relative;
+  margin-top: -14rem;
+}
+
+.image.image1 {
+  top: -2rem;
+  left: 0;
+}
+
+.image.image2 {
+  top: 2rem;
+  right: 0;
+}
+
+.image.image3 {
+  top: 10rem;
+  left: 20%;
+}
+
+.aboutColsLeft {
+  margin-left: 5rem;
+}
+
+.aboutColsRight {
+  margin-right: 5rem;
+}

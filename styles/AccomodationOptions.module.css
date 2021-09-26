@@ -1,0 +1,60 @@
+.accomodationSection {
+  height: 56rem;
+  padding: 6rem 2rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.accomodationSection h3 {
+  margin: 3rem 0;
+  font-size: 2.5rem;
+}
+.accomodationRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.optionsBox {
+  padding: 6rem;
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+.text {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.text span {
+  font-size: 2rem;
+  color: #046402;
+}
+
+.hr {
+  margin-bottom: .7rem;
+}
+
+.footer {
+  background: green;
+  color: white;
+  padding: 0.4rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.footer span {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}

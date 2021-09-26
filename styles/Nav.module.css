@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  width: 95%;
+}
+
+@media (max-width:1056px) {
+  .nav {
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+.menuWrapper {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+@media (min-width:1056px) {
+  .menuItem {
+    margin: 0 2rem;
+  }
+}
+
+.menuItem.active {
+  text-decoration: underline;
+  text-decoration-color: green;
+}

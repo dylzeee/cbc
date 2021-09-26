@@ -1,0 +1,20 @@
+.activitiesSection {
+  overflow: hidden;
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, hsla(96, 49%, 87%, 0.574), hsla(120, 8%, 46%, 0.493)), url('/images/mountains-view.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.headingSecondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #8AFF42, #fff);
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.featuresBox {
+  background: rgba(255, 255, 255, 0.781);
+  padding: 5rem 9rem;
+  margin: 5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  /* transform: skewY(5deg); */
+  transition: transform .3s;
+  width: 7%;
+}
+
+.featuresBox:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+.icon {
+  font-size: 6rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  color: #046402;
+}

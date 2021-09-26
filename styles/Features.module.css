@@ -1,0 +1,21 @@
+.featuresSection {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, hsla(97, 100%, 63%, 0.774), hsla(119, 96%, 20%, 0.774)), url('/images/mountains-view.jpeg');
+  background-size: cover;
+  background-position: center;
+  transform: skewY(-5deg);
+  margin-top: -8rem;
+}
+
+.featuresCol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.featuresRow {
+  margin: 0 5rem;
+  transform: skewY(5deg);
+}
